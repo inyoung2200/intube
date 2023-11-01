@@ -27,4 +27,4 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 - swiper를 설치합니다. `npm install swiper`
 - 버전수정 방법 : package.json 에서 버전을 수정한뒤 터미널에 npm i 엔터치면 버전 수정됨.
 
-- 사용자변경 : git config --global user.name "inyoung"
+- 사용자변경 : git config --global user.name "inyoung" > git config --global user.email inyoung222000@gmail.com
