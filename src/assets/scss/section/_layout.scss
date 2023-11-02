@@ -4,8 +4,18 @@
     top: 0;
     width: 260px;
     height: 100%;
+    overflow-y: auto;
     z-index: 10000;
     background-color: #000;
+    padding-bottom: 50px;
+
+    // 스크롤바 안보이게
+    -ms-overflow-style: none; // 인터넷 익스플로러 
+    scrollbar-width: none; // 파이어폭스
+    // 크롬, 사파리, 오페라, 엣지
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 #main {
