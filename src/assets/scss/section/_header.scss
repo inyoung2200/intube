@@ -49,6 +49,10 @@
                 }
             }
         }
+
+        .active a {
+            background-color: var(--blackOver);
+        }
     }
 
     .keyword {
@@ -72,6 +76,10 @@
                     background-color: var(--blackOver);
                 }
             }
+        }
+        
+        .active a {
+            background-color: var(--blackOver);
         }
     }
 }
@@ -104,3 +112,4 @@
     50% {transform: rotate(720deg) scale(1); border-radius: 0px;}
     100% {transform: rotate(0) scale(0.7); border-radius: 40px;}
 }
+
