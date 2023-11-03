@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Today = () => {
   return (
-    <Main>Today</Main>
+    <Main title='추천영상' description='Welcome Intube'>Today</Main>
   )
 }
 

@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Channel = () => {
   return (
-    <Main>Channel</Main>
+    <Main title='Channel' description='Welcome Intube'>Channel</Main>
   )
 }
 

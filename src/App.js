@@ -18,26 +18,26 @@ const Not = lazy(() => import('./pages/Not'));
 
 
 const App = () => {
-return (
-    <BrowserRouter>
-        <Suspense fallback={<Main />}>
-            <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='/today' element={<Today/>} />
-                <Route path='/developer' element={<Developer/>} />
-                <Route path='/webd' element={<Webd/>} />
-                <Route path='/website' element={<Website/>} />
-                <Route path='/gsap' element={<Gsap/>} />
-                <Route path='/port' element={<Port/>} />
-                <Route path='/youtube' element={<Youtube/>} />
-                <Route path='/channel/:channelId' element={<Channel/>} />
-                <Route path='/video/:videoId' element={<Video/>} />
-                <Route path='/search/:searchId' element={<Search/>} />
-                <Route path='*' element={<Not/>} />
-            </Routes>
-        </Suspense>
-    </BrowserRouter>
-)
+    return (
+        <BrowserRouter>
+            <Suspense fallback={<Main />}>
+                <Routes>
+                    <Route path='/' element={<Home/>} />
+                    <Route path='/today' element={<Today/>} />
+                    <Route path='/developer' element={<Developer/>} />
+                    <Route path='/webd' element={<Webd/>} />
+                    <Route path='/website' element={<Website/>} />
+                    <Route path='/gsap' element={<Gsap/>} />
+                    <Route path='/port' element={<Port/>} />
+                    <Route path='/youtube' element={<Youtube/>} />
+                    <Route path='/channel/:channelId' element={<Channel/>} />
+                    <Route path='/video/:videoId' element={<Video/>} />
+                    <Route path='/search/:searchId' element={<Search/>} />
+                    <Route path='*' element={<Not/>} />
+                </Routes>
+            </Suspense>
+        </BrowserRouter>
+    )
 }
 
 export default App

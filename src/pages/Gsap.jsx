@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Gsap = () => {
   return (
-    <Main>Gsap</Main>
+    <Main title='Gsap 사이트' description='Welcome Intube'>Gsap</Main>
   )
 }
 

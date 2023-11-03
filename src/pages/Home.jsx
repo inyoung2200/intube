@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Home = () => {
     return (
-        <Main>
+        <Main title='Home' description='Welcome Intube'>
             Home
         </Main>
     )

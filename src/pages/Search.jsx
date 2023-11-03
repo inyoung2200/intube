@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Search = () => {
   return (
-    <Main>Search</Main>
+    <Main title='유튜브 검색' description='검색 결과 페이지입니다.'>Search</Main>
   )
 }
 

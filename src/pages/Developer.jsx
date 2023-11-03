@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 
 const Developer = () => {
   return (
-    <Main>Developer</Main>
+    <Main title='추천 개발자' description='Welcome Intube'>Developer</Main>
   )
 }
 
