@@ -42,10 +42,15 @@
                     width: 24px;
                     height: 24px;
                     margin-right: 24px;
+                    color: var(--icon);
                 }
 
                 &:hover {
                     background-color: var(--blackOver);
+                }
+
+                &:hover svg {
+                    color: var(--white);
                 }
             }
         }
@@ -101,6 +106,11 @@
                 svg {
                     width: 24px;
                     height: 24px;
+                    color: var(--icon);
+                }
+
+                &:hover svg {
+                    color: var(--white);
                 }
             }
         }

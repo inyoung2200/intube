@@ -19,15 +19,18 @@
 }
 
 #main {
-    max-width: 2000px;
     min-height: 100vh;
-    margin: 0 auto;
-    padding-left: 260px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
     background-color: #111;
 }
 
 #footer {
     text-align: center;
     background-color: #333;
-    padding: 20px 20px 20px 260px;
+    padding: 20px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    color: var(--placeholder);
+    font-size: 12px;
 }
