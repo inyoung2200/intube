@@ -1,7 +1,6 @@
 .search__inner {
     min-width: 165.3px;
     padding: 20px 0;
-    margin: 0 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,4 +62,16 @@ input[type=search]::-ms-clear {
     background: url(../../img/icoXW.png) center center no-repeat;
     cursor: pointer;
     margin: 0 10px;
+}
+
+@media (max-width: 800px) {
+    .search__inner {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 20px 20px 20px 134px;
+        background-color: var(--black);
+        z-index: 100;
+    }
 }

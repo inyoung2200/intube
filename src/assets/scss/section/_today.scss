@@ -1,0 +1,114 @@
+#todayPage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.today__inner {
+    display: flex;
+    gap: 30px;
+
+    .today__thumb {
+        a {
+            width: 100%;
+            img {
+                width: 500px;
+            }
+        }
+    }
+
+    .today__text {
+        width: calc(100% - 530px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .today {
+            width: 160px;
+            height: 30px;
+            background-color: var(--red);
+            border-radius: 30px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 32px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin: -5px 0 10px 0;
+        }
+
+        .desc {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 16px;
+        }
+
+        .info {
+            display: flex;
+            align-items: end;
+            color: var(--placeholder);
+            gap: 10px;
+
+            .author {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .date {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #todayPage {row-gap: 30px;}
+
+    .today__inner {
+        flex-direction: column;
+
+        .today {
+            width: 140px;
+            font-size: 14px;
+        }
+
+        .today__thumb {
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .today__text {
+            width: 100%;
+            gap: 10px;
+
+            .today {
+                width: 140px;
+                font-size: 14px;
+            }
+
+            .title {
+                font-size: 24px;
+                margin: 0;
+            }
+
+            .desc {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    #today {margin-top: 80px;}
+    #todayPage {margin-top: 80px;}
+}
