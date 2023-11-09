@@ -7,7 +7,7 @@
 
     .search__input {
         width: 100%;
-        min-width: 100px;
+        min-width: 93px;
         height: 40px;
         padding: 0 4px 0 24px;
         background-color: var(--black);
@@ -25,7 +25,7 @@
 
     .search__btn {
         width: 64px;
-        min-width: 64px;
+        min-width: 39px;
         height: 40px;
         background-color: var(--blackOver);
         border: 1px solid var(--line);
@@ -74,4 +74,10 @@ input[type=search]::-ms-clear {
         background-color: var(--black);
         z-index: 100;
     }
+}
+
+@media (max-width: 330px) {
+    .search__inner {padding: 20px 20px 20px 108px;}
+    .search__inner .search__input {height: 30px;}
+    .search__inner .search__btn {height: 30px;}
 }

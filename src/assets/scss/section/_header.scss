@@ -131,3 +131,8 @@
     }
 }
 
+@media (max-width: 330px) {
+    .header__logo a em {width: 30px; height: 30px;}
+    .header__logo a span {font-size: 15px;}
+}
+
